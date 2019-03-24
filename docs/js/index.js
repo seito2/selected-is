@@ -16,7 +16,7 @@ const SelectedDrink = {
             <option v-for="item in drink" @key="item">{{ item }}</option>
         </select>
         <span>選ばれたのは: {{ selected }}</span>
-    <div>
+    </div>
     `,
     data: function() {
         return {
